@@ -1,0 +1,212 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.net-logo{
+    width: 160px;
+    height: 50px;
+}
+.net-logo img{
+    width: 100%;
+    height: 100%;
+}
+.sub-first{
+    max-width: 650px;
+    width: 45vw;
+}
+.sub-first h1{ 
+    font-size: 56px;
+    line-height: 70px;
+    font-weight: 900;
+    text-align: center;
+    font-style: normal;
+}
+.sub-first p{ 
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    font-style: normal;
+}
+.sub-first h3{ 
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 700;
+    text-align: center;
+    font-style: normal;
+}
+.sub-first input{ 
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+    font-style: normal;
+    background-color: rgba(0, 0, 0, 0.432);
+    color: #ffffff;
+    border: 2px solid rgba(211, 211, 211, 0.773);
+}
+.sub-first button{ 
+    font-size: 24px;
+    line-height: 24px;
+    font-weight: 500;
+    font-style: normal;
+    width: 30%;
+}
+.first-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.first-part{
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.821) 0, rgba(0, 0, 0, 0.251) 60%, rgba(0, 0, 0, 0.66) 100%), url('./netflix-background-image.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    margin-top: 0;
+}
+@media screen and (max-width:1000px) {
+    .sub-first h1{ 
+        font-size: 40px;
+        line-height: 60px;
+        font-weight: 800;
+        text-align: center;
+        font-style: normal;
+    }
+    .sub-first p{ 
+        font-size: 17px;
+        font-weight: 400;
+        text-align: center;
+        font-style: normal;
+    }
+    .sub-first h3{ 
+        font-size: 14px;
+        line-height: 20px;
+        font-weight: 500;
+        text-align: center;
+        font-style: normal;
+    }
+    .sub-first input{
+        width: 100%;
+    }
+    .sub-first button{
+        width: 40%;
+    }
+    .first-section .form{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .sub-first{
+        width: 90vw;
+    }
+    .flex5, .flex4{
+        display: none;
+    }
+}
+.sec2-img{
+    width: 200px;
+    height: 220px;
+}
+.second-part{
+    background-color: #000000;
+}
+.select select{
+    background-color: #000000;
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 18px;
+}
+.select{
+    display: flex;
+    gap: 2rem;
+}
+.second-section h3{
+    font-weight: 600;
+    font-size: 28px;
+}
+.third-section h3{
+    font-weight: 500;
+    font-size: 24px;
+}
+.third-section p{
+    font-weight: 100;
+    font-size: 16px;
+}
+.sub3-sec{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 1rem;
+}
+.sec3-box{
+    position: relative;
+    height: 310px;
+}
+.sec3-img{
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+.third-section{
+    padding-bottom: 50px;
+}
+@media screen and (max-width:1100px) {
+    .sub3-sec{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media screen and (max-width:700px) {
+    .sub3-sec{
+        grid-template-columns: 1fr ;
+    }
+   
+}
+.shit{
+    flex-direction: column;
+}
+.accordion-sec, .accordion-sec button{
+    background-color: #414141;
+    color: #ffffff;
+    font-size: 27px;
+    font-weight: 600;
+}
+.last-sec h3{
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 700;
+    text-align: center;
+    font-style: normal;
+}
+.last-sec input{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+    font-style: normal;
+    background-color: #1c16160b;
+    color: #ffffff;
+    border: 2px solid rgba(211, 211, 211, 0.773);
+    max-width: 600px;
+}
+.last-sec button{
+    font-size: 24px;
+    line-height: 24px;
+    font-weight: 500;
+    font-style: normal;
+    max-width: 200px;
+}
+.footer-list li{
+    list-style-type: none;
+
+}
+.footer-list li a, .footer-head a{
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 400;
+}
+@media screen and (max-width:700px){
+    .foot-sub{
+        flex-direction: column;
+    }
+}
